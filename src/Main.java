@@ -3,21 +3,6 @@ import java.util.Scanner; // importing scanner class
 public class Main {
     public static void main(String[] args) {
 
-        /*
-        A program that converts an inputted temperature in C
-        and provides the equivalent temperature in F.
-        Hint: Google is your friend! Given C, solve for F.
-        Again, check for a valid input value and only respond
-        with the F value if you got it, otherwise output an
-        appropriate error msg to the user.
-
-        Testing: 3 conditions: Bad Input, then test for the
-        known freezing and boiling points.
-
-        To convert temperatures in degrees Celsius to Fahrenheit,
-        multiply by 1.8 (or 9/5) and add 32.
-         */
-
         // freezing & boiling points for celsius & fahrenheit, respectively:
         final int FREEZING_CELSIUS = 0;
         final int BOILING_CELSIUS = 100;
